@@ -47,10 +47,11 @@
 <body id="home">
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script>(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
+    js = d.createElement(s);
+    js.id = id;
     js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
@@ -629,7 +630,10 @@
 
                 <div class="col-12 col-md-3 text-right">
                     <h5>Contact</h5>
-                    <p>05 45 373 373<br><a href="mailto:contact@sps-solutions.fr">contact@sps-solutions.fr</a></p>
+                    <p>
+                        <a href="tel:+33545373373">05 45 373 373</a><br>
+                        <a href="mailto:contact@sps-solutions.fr">contact@sps-solutions.fr</a>
+                    </p>
                 </div>
 
             </div>
